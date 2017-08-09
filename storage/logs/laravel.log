@@ -1,0 +1,258 @@
+[2017-08-08 08:08:34] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:20:29] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:20:34] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:25:57] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:27:32] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:28:56] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider' not found' in D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php:208
+Stack trace:
+#0 {main}  
+[2017-08-08 08:34:55] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 08:37:22] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 08:42:22] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 08:47:37] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 08:51:24] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:01:56] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:05:10] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:33
+Stack trace:
+#0 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 33, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): Composer\Autoload\includeFile()
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:05:54] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:06:55] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:14:00] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:14:14] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:15:27] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:15:56] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:21:25] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2017-08-08 09:38:24] local.ERROR: exception 'ErrorException' with message 'Declaration of App\Providers\EventServiceProvider::boot() should be compatible with Illuminate\Foundation\Support\Providers\EventServiceProvider::boot()' in D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php:9
+Stack trace:
+#0 D:\xampp\htdocs\survey\app\Providers\EventServiceProvider.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2048, 'Declaration of ...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(444): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\survey\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\xampp\\htdocs...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Providers\\E...')
+#4 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(208): spl_autoload_call('App\\Providers\\E...')
+#5 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(144): Illuminate\Foundation\ProviderRepository->createProvider('App\\Providers\\E...')
+#6 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php(61): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#7 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(549): Illuminate\Foundation\ProviderRepository->load(Array)
+#8 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#9 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 D:\xampp\htdocs\survey\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 D:\xampp\htdocs\survey\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
